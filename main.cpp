@@ -74,6 +74,9 @@ public:
     void out() const { cout << year << '-' << month << '-' << day << '\n'; }
 };
 
+// Define the maximum ordinal for 2030-12-31
+
+
 int main(){
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
